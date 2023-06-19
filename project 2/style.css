@@ -1,0 +1,34 @@
+#images{
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+#placeHolder{
+    width: 600px;
+    height: 450px;
+    border-radius: 50px;
+    margin-left: 10px;
+    grid-column: 1/span 3;
+}
+
+#bigimage1 ,#bigimage2 , #bigimage3  {
+
+    opacity: 1;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    padding-top: 10px;
+    transition: opacity 1s;
+}
+#bigimage1:hover {
+    opacity: 0.5;
+}
+#bigimage2:hover {
+    opacity: 0.5;
+}
+#bigimage3:hover{
+    opacity: 0.5;    
+}
